@@ -1,0 +1,129 @@
+			* {
+
+			box-sizing: border-box;
+
+			}
+
+
+			body {
+
+			 font-family: Arial, Helvetica, sans-serif;
+
+			}
+
+			form div {
+				background: #fff;
+				border: 0px dashed; #999;
+				margin: 10px 10px 10px 10px;
+				padding: 0px 0px 0px 0px;
+			}
+			[type="text"], [type="email"], textarea {
+				width: 50%;
+			}
+
+			label {
+				margin-bottom: 30px;
+				font-size: 20px;
+				font-family: sans-serif;
+				font-weight: bold;
+			}
+
+			/* Style the header */
+
+			header {
+
+			 background-color: #777;
+
+			 padding: 40px;
+
+			 text-align: center;
+
+			 font-size: 30px;
+
+			 color: white;
+
+			}
+
+
+			/* Create two columns/boxes that floats next to each other */
+
+			nav {
+
+			 float: center;
+
+			 width: 97%;
+	  
+			 background: #ccc;
+
+			 padding: 20px;
+
+			}
+
+
+			/* Style the list inside the menu */
+
+			nav ul {
+
+			 list-style-type: circle;
+
+			 padding: 10;
+
+			}
+
+
+			article {
+
+			 float: center;
+
+			 padding: 100px;
+
+			 width: 100%;
+
+			 background-color: #f1f1f1;
+
+			}
+
+
+			/* Clear floats after the columns */
+
+			section::after {
+
+			 background: #ccc;
+
+			 content: "";
+
+			 display: inline-block;
+
+			 clear: both;
+
+			}
+
+
+			/* Style the footer */
+
+			footer {
+
+			 background-color: #888;
+
+			 padding: 100px;
+
+			 text-align: center;
+
+			 color: white;
+
+			}
+
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
+			@media (max-width: 60px) {
+
+			 nav, article {
+
+			  width: 100%;
+
+			  height: auto;
+
+			 }
+
+			}

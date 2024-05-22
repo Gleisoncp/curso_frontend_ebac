@@ -1,0 +1,33 @@
+*
+{box-sizing: border-box;}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	font-size: 100%;
+}
+body {
+	background-color: cadetblue;
+}
+header p {
+	color: #fff;
+	font-size: 20px;
+}
+h1 {
+	font-size: 98px;
+}
+h2 {
+	font-size: 1.8rem;
+}
+h1, p, li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #454545;
+}
+a {
+	color: blue;
+	text-decoration: underline;
+}
+#primeiro-link > a {
+	color: #933;
+}

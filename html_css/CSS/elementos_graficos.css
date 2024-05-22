@@ -1,0 +1,106 @@
+
+div {
+    margin: 40px auto;
+}
+
+#grafico-01 {
+    background-color: brown;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#grafico-01 img {
+    width: 100%;
+}
+
+#grafico-02 {
+    background: red;
+    border-style: solid;
+    border-width: 120px 0 120px 240px;
+    border-color: transparent transparent transparent blue;
+    width: 60px;
+}
+
+nav {
+    background-color: tomato;
+    float: left;
+    width: 10%;
+    padding: 50px;
+}
+
+article {
+    background-color: yellow;
+    padding: 50px;
+    width: auto;
+}
+
+#imagem-vetorial {
+    width: 100px;
+}
+
+.filtro {
+    filter: grayscale(100%);
+    filter: blur(20px);
+    filter: brightness(50%);
+    filter: invert(100%);
+    filter: opacity(50%);
+    filter: saturate(200%) sepia(100%);
+}
+
+.filtro:hover {
+    filter: grayscale(0%);
+}
+#grafico-01 {
+    filter: drop-shadow(20px 10px 8px #333);
+    max-width: 100%;
+}
+
+h1 {
+    filter: grayscale(100%);
+    filter: blur(20px);
+}
+
+h1:hover {
+    filter: grayscale(0%);
+}
+
+.Coluna {
+    display: block;
+    width: 20%;
+    float: left;
+    padding: 5px;
+    background: #eee;
+    border: 1px solid #333;
+}
+
+.Coluna-3 {
+    columns: 100px;
+    width: 100%;
+}
+
+.iframe {
+    width: 100%;
+}
+
+.mapas {
+    width: 400%;
+}
+@media (min-width: 769px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media (max-width: 425px) {
+    nav,
+    artcle,
+    .Coluna {
+        width: 100%;
+    }
+}

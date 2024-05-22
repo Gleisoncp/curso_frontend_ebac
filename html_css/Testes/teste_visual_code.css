@@ -1,0 +1,45 @@
+* 
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 30px;
+    color: rgb(70, 155, 36);
+}
+
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(161, 217, 240);
+  }
+
+head {
+    background-color: rgb(191, 156, 224);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+  
+body {
+    width: 1200px;
+    margin: 60px;
+    background-color: rgb(158, 199, 185);
+    padding: 0 20px 20px 20px;
+    font-family: sans-serif;
+    font-size: large;
+    font-display: auto;
+    border: 5px solid black;
+}
+
+
+p {
+    font-size: 20px;
+    line-height: 1,6;
+    letter-spacing: 0px;
+    color: rgb(10, 61, 18);
+    width: 400px;
+    border: 2px solid rgb(18, 120, 179);
+}
+
+strong {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+		<title>Formulario</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=5">
+		<link rel="stylesheet" type="text/css" href="./Style2.css">
+		
+	<head>Fale conosco</head>
+		<body>
+
+			<header>
+				<h2>Fale conosco</h2>
+			</header>
+
+			<section>
+				<nav>
+					<ul>
+						<li><a href="05_Layouts.html">Home</a></li>
+						<li><a href="#sobre">Sobre</a></li>
+						<li><a href="#contato">Contato</a></li>
+					</ul>
+				</nav>
+
+				<article>
+					<h1>Contato</h1>
+					<p>Preencha os campos abaixo</p>
+
+					<form method="post">
+						<div>
+							<label for="Nome">Nome</label><br>
+							<input type="text" name="Nome" id="Nome" placeholder="Digite seu nome">
+						</div>
+						
+						<div>
+							<label for="email">Email</label><br>
+							<input type="email" name="email" id="email" placeholder="Digite seu email">
+						</div>
+
+						<div>
+							<label for="mensagem">Mensagem</label><br>
+							<textarea name="mensagem" id="mensagem" rows="6"></textarea>
+						</div>
+
+						<div>
+							<p>
+								<label>Quais linguagens vc sabe?</label>
+								<input type="checkbox" name="linguagens"> HTML
+								<input type="checkbox" name="linguagens"> CSS
+								<input type="checkbox" name="linguagens"> JavaScript
+							</p>
+
+							<p>
+								<label>Quais linguagens vc prefere?</label>
+								<input type="radio" name="linguagens" value="html"> HTML
+								<input type="radio" name="linguagens" value="css"> CSS
+								<input type="radio" name="linguagens" value="javascript"> JavaScript
+							</p>
+						</div>
+						<div>
+							
+						</div>
+
+						<div>
+							<label>Qual sua cor favorita</label>
+							<select>
+								<option value="Azul">Azul</option>
+								<option value="Verde">Verde</option>
+								<option value="vermelho">Vermelho</option>
+							</select>
+
+						</div>
+						<div>
+							<input type="submit">
+						</div>
+					
+					</form>
+
+					
+				</article>
+
+			</section>
+
+			<footer>
+				<p>Desenvolvido por Gleison da Costa</p>
+			</footer>
+
+	</body>
+</html>

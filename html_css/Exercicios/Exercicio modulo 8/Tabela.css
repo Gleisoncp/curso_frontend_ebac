@@ -1,0 +1,136 @@
+
+
+    h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+
+    header, h2 {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #1b1a1a;
+    background-color: #096;
+    }
+
+    h2 + p {
+        background: #FF0;
+        color: #333;
+        width: auto;
+    }
+    
+    div ~ p {
+        text-transform: uppercase;
+    }
+
+    p {
+    font-size: 22px;
+    }
+
+    a {
+        color: #555555;
+        text-decoration: none;
+        font-size: 5rem;
+        width: 200px;
+        height: 400px;
+    }
+
+    a:visited {
+        color: #f00;
+    }
+    
+    a:active {
+        color: #096;
+    }
+    
+    a:hover {
+        color: rgb(77, 77, 197);
+        background: #eee;
+    }
+
+    table {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #ffffff;
+    width: 100%;
+    border-collapse: collapse;
+    }
+
+    body {
+        background: url('../images/pattern.png') center top repeat #EEEEEE;
+    }
+    
+    section {
+        background: rgba(255, 255, 255, 0.95);
+    }
+    
+    p {
+        color: rgb(78, 78, 194);
+        color: #034589;
+    }
+  
+    
+    footer p {
+        color: rgb(255, 255, 255);
+    }
+    
+    .navegacao {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 0.5rem;
+        width: 300px;
+    }
+    
+    .navegacao li a {
+        color: white;
+        font-size: 1.4rem;
+    }
+    
+    .navegacao li a:hover {
+        background-color: rgba(188, 188, 221, 0.5);
+        color: #3f1919;
+    }
+
+    table tr {
+        border: 2px solid #0e0d0d;
+    }
+    table tbody tr:nth-child(1) {
+        background-color: #7ee48b;
+    }
+
+    table tbody tr:hover {
+        background-color: rgba(0, 185, 139, 0.5);
+    }
+
+    table td, th {
+        padding: 3px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    table tr td:first-child {
+        text-align: left;
+    }
+
+    table th {
+        background-color: #3dad2e;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .table-container {
+        padding: 8px 2px;
+    }
+   
+    .table-container h1 {
+        font-size: 42px;
+        font-style: normal;
+        margin-bottom: 2px;
+    }
+
+    .table-container tfoot {
+        background: #216649;
+    }
+
+    .table-container tfoot td {
+        font-weight: bold;
+    }
